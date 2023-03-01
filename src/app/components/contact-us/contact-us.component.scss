@@ -1,0 +1,31 @@
+.container-fluid{
+    #form{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        form{
+            width: 800px;
+            border: 2px solid;
+            background-color: #e27a7a;
+            height: fit-content;
+            input, textarea{
+                border: 1px solid;
+            }
+            button{
+                width: 200px;
+                border: 1px solid;
+            }
+            button:hover{
+                background-color: #12b38d;
+                color: #fff;
+                border: 1px solid #000000;
+            }
+            p{
+                padding-top: 10px;
+                color: #0e3025;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.container-fluid{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   .row{
+    display: flex;
+    justify-content: center;
+    
+    .col-5{
+        padding-top: 30px;
+        img{
+            width: 500px;
+            height: fit-content;
+        }
+    }
+   }
+}

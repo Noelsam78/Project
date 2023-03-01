@@ -1,0 +1,65 @@
+<header>
+  <nav class="navbar navbar-expand-lg bg-tertiary fixed-top">
+    <div class="container-fluid">
+      <h3 class="navbar-brand" [innerText]="caption"></h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/aboutus" routerLinkActive="active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/trips" routerLinkActive="active">Trips</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contactus" routerLinkActive="active">Contact Us</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+
+<footer>
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-4">
+        <h3 [innerText]="caption"></h3>
+        <p>Explorer is an outdoor recreational center which celebrates nature and it's inexplicable beauty.</p>
+      </div>
+      <div class="col-4">
+        <p><b>Social Media</b></p>
+        <div>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">Copyright <i class="fa-regular fa-copyright"></i> Explorer 2023</div>
+  </div>
+</footer>
+

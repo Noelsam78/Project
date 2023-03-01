@@ -1,0 +1,63 @@
+.home-page{
+    height: 100vh;
+    background-image: url(/assets/images/homepage-bg.jpg);
+    background-size: cover;
+    div{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+
+        
+        p{
+            font-family: 'Satisfy', 'cursive';
+            font-size: 25px;
+        }
+    }
+}
+.explore-togeather{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .col-4{
+        text-align: center;
+        p{
+            font-family: 'Satisfy', 'cursive';
+            font-size: 20px;
+        }
+    }
+    .col-8{
+        display: flex;
+        justify-content: space-evenly;
+        i{
+            font-size: 30px;
+        }
+    }
+}
+.popular-stories{
+    padding: 0 50px;
+    p:first-child{
+        font-family: 'Satisfy', 'cursive';
+        font-size: 20px;
+    }
+    .row{
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .col-2{
+        h4{
+            text-align: center;
+            padding-top: 10px;
+        }
+        img{
+            width: 200px;
+            height: 300px;
+        }
+    }
+    
+}
+.orange{
+    color: #d19e5c;
+}
